@@ -34,25 +34,21 @@
     justify-content: center;
   }
 
-  &__info {
-    display: flex;
-    justify-content: space-between;
+  &__info  {
     margin-top: 170px;
   }
-  
-  &__info h4 {
-    color: #fff;
-    font-size: 18px;
-  }
 
-  &__info p {
-    color: #ff0000;
+
+  &__info h4 {
+    font-size: 18px;
   }
 
   &__address {
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100%;
   }
 
   &__phone {
@@ -65,10 +61,18 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
+  }
+}
+
+.address {
+  &__title {
+    color: #fff;
+    text-transform: uppercase;
   }
 
-  
-
-
+  &__between {
+    color: #DB3138;
+  }
 }
 

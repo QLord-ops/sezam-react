@@ -21,23 +21,23 @@ const Header = () => {
                 </div>
                 <div className={styles.header__info}>
                     <Row>
-                        <Col xxl={4}>
-                            <div className={styles.header__address}>
-                                <address>Адрес:</address>
-                                <address>Пушкинская 56</address>
+                        <Col xxl="4" style={{border: '2px solid #898989'}}>
+                            <div  className={styles.header__address}>
+                                <address className={styles.address__title}>Адрес:</address>
+                                <address className={styles.address__between}>Пушкинская 56</address>
                             </div>
                         </Col>
-                        <Col xxl={4}>
-                            <div className={styles.header__phone}>
-                                <h4>Контакты:</h4>
-                                <Link to="tel:+380675437969">+380675437969</Link>
+                        <Col xxl="4" style={{border: '2px solid #898989'}}>
+                            <div className={`${styles.header__phone} ${styles.header__address}`}>
+                                <address className={styles.address__title}>Контакты:</address>
+                                <Link className={styles.address__between} to="tel:+380675437969">+380675437969</Link>
                             </div>
                         </Col>
-                        <Col xxl={4}>
-                            <div className={styles.header__time}>
-                                <h4>Режим работы:</h4>
-                                <p>ПН-ПТ: 10:00 - 20:00</p>
-                                <p>СБ-ВС: 12:00 - 16:00</p>
+                        <Col xxl="4" style={{border: '2px solid #898989'}}>
+                            <div className={`${styles.header__time} ${styles.header__address}`}>
+                                <h4 className={styles.address__title}>Режим работы:</h4>
+                                <p className={styles.address__between}>ПН-ПТ: 10:00 - 20:00</p>
+                                <p className={styles.address__between}>СБ-ВС: 12:00 - 16:00</p>
                             </div>
                         </Col>
                     </Row>

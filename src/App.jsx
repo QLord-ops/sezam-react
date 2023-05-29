@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "./assets/styles/style.scss"
 import {BrowserRouter} from "react-router-dom";
 import Main from "./assets/components/main/Main.jsx";
-import SimpleSlider from "./assets/components/main/slider/SimpleSlider.jsx";
+import IndexContent from "./assets/components/IndexContent/IndexContent.jsx";
 
 
 
@@ -13,8 +13,7 @@ const App = () => {
         <>
             <BrowserRouter>
                 <Header/>
-                <Main/>
-
+                <IndeContent />
             </BrowserRouter>
         </>
     )
