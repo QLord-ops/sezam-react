@@ -1,0 +1,106 @@
+.main {
+  background: #1E1E1E;
+
+  &__achievements {
+    padding-top: 170px;
+    color: #fff;
+    display: flex;
+  }
+
+  &__achievements h3 {
+    max-width: 400px;
+  }
+
+  &__achievements p {
+    margin-top: 100px;
+  }
+
+
+  &__box_text {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  &__box_grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__about {
+    display: flex;
+    margin-top: 200px;
+  }
+
+  &__about_text_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__box_img img {
+    height: 500px;
+  }
+
+  &__about_text_box p {
+    padding-bottom: 20px;
+  }
+
+  &__text {
+    margin-top: 115px;
+    padding-right: 170px;
+  }
+
+  &__first_text {
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  &__box_btn {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  &__btn_first {
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    margin-right: 80px;
+  }
+
+  &__btn_second {
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: #1E1E1E;
+    color: #fff;
+    border: none;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  &__info {
+    display: flex;
+    margin-top: 180px;
+  }
+
+  &__about_text_box2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+    margin-top: 115px;
+  }
+
+  &__box_img img {
+    height: 500px;
+  }
+
+  &__about_text_box2 p {
+    padding-bottom: 20px;
+  }
+}

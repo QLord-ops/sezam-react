@@ -1,11 +1,11 @@
 import React from 'react';
 import "./style.scss"
-import logo from "../../image/sezam-logo.jpg"
+import logo from "../../../image/sezam-logo.jpg"
+import BurgerMenu from "./burgerMenu/burgerMenu.jsx";
 
 
-const NavMenu = () => {
+const NavBar = () => {
     return (
-
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <div className="box-img">
@@ -19,25 +19,26 @@ const NavMenu = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active" aria-current="page" href="sezam-react/src/assets/components/header/navBar#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                            <a className="nav-link" href="sezam-react/src/assets/components/header/navBar#">Features</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <a className="nav-link" href="sezam-react/src/assets/components/header/navBar#">Pricing</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Galera</a>
+                            <a className="nav-link" href="sezam-react/src/assets/components/header/navBar#">Galera</a>
                         </li>
 
 
                     </ul>
                 </div>
+                <BurgerMenu />
             </div>
         </nav>
 
     );
 };
 
-export default NavMenu;
+export default NavBar;
