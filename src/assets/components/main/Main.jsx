@@ -6,6 +6,7 @@ import car from "../../image/car.png"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import carTwo from "../../image/car2.png"
+import Parallelogram from "../Parallelogram/Parallelogram.jsx";
 
 
 const Main = () => {
@@ -125,10 +126,14 @@ const Main = () => {
                     </div>
                 </div>
                 <div className={styles.main__work}>
-                    <h3>НАШИ РАБОТЫ</h3>
-
+                    <h3 style={{textAlign: 'center', color: '#fff'}}>НАШИ РАБОТЫ</h3>
                 </div>
-
+                <div style={{display: 'flex', gap: '15px', justifyContent: 'center', padding: '40px'}}>
+                    <Parallelogram/>
+                    <Parallelogram/>
+                    <Parallelogram/>
+                    <Parallelogram/>
+                </div>
             </Container>
         </main>
     );
