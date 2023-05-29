@@ -1,0 +1,34 @@
+.answer {
+  background: #1E1E1E;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+
+  .row {
+    gap: 30px;
+  }
+
+
+  & h3 {
+    color: #fff;
+  }
+
+  & input  {
+    color: #898989;
+    background: transparent;
+    width: 100%;
+    padding: 15px 15px 10px 25px;
+    text-transform: uppercase;
+
+    &:focus-visible {
+      outline: #DB3138 2px solid;
+      text-transform: uppercase;
+    }
+  }
+
+  & textarea {
+    color: #898989;
+    background: transparent;
+    width: 100%;
+  }
+}
